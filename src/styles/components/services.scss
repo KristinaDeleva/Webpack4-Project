@@ -1,0 +1,106 @@
+#services {
+    z-index: 999;
+
+    .bg {
+        background-color: darkblue;
+        height: 30vh;
+        text-align: center;
+
+        h2 {
+            color: white;
+            padding: 4rem;
+            font-size: 50px;
+        }
+    }
+
+    #info {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 130%;
+    }
+
+    .service-info {
+   
+        background-color: lightgrey;
+        height: 100%;
+        margin: 0 auto;
+        padding: 2rem;
+        width: 500px;;
+        border: 10px solid white;
+        
+
+        h3 {
+            font-size: 20px;
+            padding: 1rem;
+        }
+
+        p {
+            padding: 1rem 0;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 0.5rem;
+            border: none;
+            background: none;
+            color: red;
+            font-size: 15px;
+
+            &:hover {
+                color: black;
+            }
+        }
+    }
+}
+
+@media (width <= 799px) {
+    #services {
+        #info {
+            position: relative;
+            top: 0;
+        }
+
+        .bg {
+            height: 20vh;
+            h2 {
+                padding: 5rem;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media (width > 800px) {
+    #services {
+        #info {
+            position: relative;
+            top: 0;
+        }
+
+        .bg {
+            height: 30vh;
+            h2 {
+                padding: 2rem;
+                font-size: 25px;
+            }
+        }
+        .service-info {
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out, visibility 1s ease-in-out;
+    transform: translateY(-20%);
+        }
+    }
+}
+
+@media (width > 1513px) {
+    #services {
+        #info {
+            position: relative;
+            top: 0%;
+        }
+        .service-info {
+            transition: opacity 1s ease-in-out, transform 1s ease-in-out, visibility 1s ease-in-out;
+    transform: translateY(-20%);
+        }
+    }
+}

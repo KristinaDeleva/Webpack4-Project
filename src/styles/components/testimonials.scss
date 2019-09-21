@@ -1,0 +1,74 @@
+#testimonials {
+    background: lightgrey;
+    padding: 2rem;
+    .into1 {
+      width: 2%;
+      height: 3px;
+      margin: 2rem auto;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #000;
+    }
+  
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+  }
+  
+  .wrapper {
+    max-width: 46rem;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+    .list-people {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        flex: 0 0 30%;
+        list-style: none;
+        text-align: center;
+        padding: 1rem 0;
+      }
+  
+      li,
+      span {
+        display: block;
+      }
+  
+      .content {
+        margin: 0.5rem 0;
+      }
+  
+      .name {
+        font-weight: bold;
+        padding: 0.5rem;
+      }
+      .jobtitle {
+        font-style: italic;
+      }
+    }
+  }
+  
+  @media (width <= 600px) {
+    .wrapper .list-people li {
+      flex: 0 0 100%;
+      padding: 1rem 0;
+    }
+    
+    #testimonials .into1 {
+      width: 5%;
+    }
+  }
+
+  @media (width > 1400px) {
+    .wrapper {
+      transition: opacity 1s ease-in-out, transform 1s ease-in-out, visibility 1s ease-in-out;
+    transform: translateY(5%);
+    }
+  }

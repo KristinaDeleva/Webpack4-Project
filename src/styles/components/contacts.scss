@@ -1,0 +1,64 @@
+footer {
+    height: 100vh;
+    background-color: blue;
+    position: relative;
+
+    h2 {
+        text-align: center;
+        color: white;
+        padding: 2rem;
+        font-size: 40px;
+    }
+}
+
+hr {
+    background: #fff;
+}
+
+.contact-form {
+    color: white;
+    padding: 2rem;
+}
+
+.fab {
+    margin-right: 1rem;
+}
+
+.fas, .fab {
+    color: white;
+    font-size: 20px;
+    &:hover {
+        color: red;
+    }
+}
+
+#myBtn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+
+    .fas {
+        font-size: 3rem;
+    }
+  }
+
+
+@media screen and (max-width: 799px) {
+    footer {
+        height: 130vh;
+    }
+	#myBtn {
+        font-size: 50px;
+        left: 45%;
+    }
+}
+
+@media (width > 1400px) {
+    footer {
+        height: 85vh;
+    }
+}

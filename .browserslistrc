@@ -1,0 +1,9 @@
+# Browsers that we support
+
+last 2 major version
+IE 11
+not IE 10
+not Baidu >= 0
+not op_mini >= 0
+not OperaMobile >= 0
+not ExplorerMobile >= 0

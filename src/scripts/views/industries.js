@@ -1,0 +1,1 @@
+import '../../styles/views/industries.scss';
