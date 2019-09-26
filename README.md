@@ -1,3 +1,4 @@
+[![logo](http://innovationstarterbox.bg/wp-content/uploads/2016/05/Softuni_logo_trasparent.png)](http://softuni.org)
 # IT Consulting & Services
 
 # Installation
@@ -27,3 +28,8 @@ Run `npm run build` to build the project. The build artifacts will be stored in 
 ## License
 
 This project is licensed under the MIT License - see the [MIT license](https://github.com/ikismail/Angular-ShoppingCart/blob/master/LICENSE) file for details
+
+
+|**Conditions**|**Link**| 
+|---|---|
+|**Certificate**   | <a href="https://softuni.bg/certificates/details/70782/13f4db7d"> Link</a> |
